@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pB2-WZ-39a">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeditationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amy-treasure-4aSCchQ1hzk-unsplash (1)" translatesAutoresizingMaskIntoConstraints="NO" id="tag-kY-UhT">
+                                <rect key="frame" x="0.0" y="596" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="sLB-qy-gWb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matteo-di-iorio-VD-Vjc8VmRA-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="MrO-de-L8J">
+                                <rect key="frame" x="0.0" y="298" width="414" height="300"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="継続日数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkS-qP-K0B">
+                                <rect key="frame" x="83" y="139" width="90" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="合計時間" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx8-sc-9b1">
+                                <rect key="frame" x="241" y="137" width="90" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shD-5H-MTQ">
+                                <rect key="frame" x="98" y="198" width="43" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZJ-pM-UlZ">
+                                <rect key="frame" x="308" y="214" width="23" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtr-V2-ikd">
+                                <rect key="frame" x="149" y="214" width="23" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yj0-lL-Gxm">
+                                <rect key="frame" x="255" y="197" width="43" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2pD-ni-Lsu"/>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4oD-2g-Pbv"/>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4sI-kw-21r"/>
+                            <constraint firstAttribute="bottom" secondItem="tag-kY-UhT" secondAttribute="bottom" id="5GK-47-xR7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MrO-de-L8J" secondAttribute="bottom" constant="264" id="K7g-bD-SFJ"/>
+                            <constraint firstItem="tag-kY-UhT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KtV-dk-YY7"/>
+                            <constraint firstItem="tag-kY-UhT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LuU-Zv-zoC"/>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TY9-Ef-ApT"/>
+                            <constraint firstItem="tag-kY-UhT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X8r-Ce-TRN"/>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKX-Hx-3Ua"/>
+                            <constraint firstItem="MrO-de-L8J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mdZ-ah-wmy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="olo-l5-9XJ"/>
+                    <connections>
+                        <segue destination="Vb0-h1-oSd" kind="show" identifier="breathing" id="O2W-as-oqB"/>
+                        <segue destination="WSX-GW-Fea" kind="show" identifier="bodyscan" id="Ph8-3T-62p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468.11594202898556" y="124.55357142857142"/>
+        </scene>
+        <!--Breathing View Controller-->
+        <scene sceneID="Npt-r1-l0Q">
+            <objects>
+                <viewController id="Vb0-h1-oSd" customClass="breathingViewController" customModule="MeditationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HOC-o8-9h9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9zc-TN-K7d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TVz-Rd-xmN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuj-qF-JLZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="-247"/>
+        </scene>
+        <!--Body Scan View Controller-->
+        <scene sceneID="1eq-z0-ffK">
+            <objects>
+                <viewController id="WSX-GW-Fea" customClass="bodyScanViewController" customModule="MeditationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LrO-FR-lRK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mSM-Py-Lhm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cSe-7N-vSc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9k-l4-xEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="567"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dLv-SR-Mex">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KwN-gh-caZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pB2-WZ-39a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="10I-yn-06U">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VM6-ry-pXQ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-442.02898550724643" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="amy-treasure-4aSCchQ1hzk-unsplash (1)" width="640" height="427"/>
+        <image name="matteo-di-iorio-VD-Vjc8VmRA-unsplash" width="5000" height="2813"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
